@@ -1,0 +1,31 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+html {
+  font-size: 10px;
+
+
+}
+
+:root {
+  /*  Paleta de Colores  */
+  --azul: #2855ae;
+  --celeste: #7292cf;
+  --dark-gray: #3a3a3a;
+  --gray: #777777;
+  --white: #fff;
+
+  --size-title: 3.4rem;
+  --h2: 3rem;
+  --h3: 2rem;
+  --parrafo1: 1.8rem;
+  --parrafo2: 1.6rem;
+  --textodecorado: 1.2rem;
+
+ --font-family: "Source Sans Pro", sans-serif;
+ --font-family: "Bebas Neue", cursive;
+ --font-family: 'Source Sans Pro', sans-serif;
+}
+

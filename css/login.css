@@ -1,0 +1,145 @@
+@font-face {
+  font-family: ligth;
+  src: url(../font/SourceSansPro-Light.ttf);
+}
+
+.container-one {
+  width: 100%;
+  background: linear-gradient(313.78deg, #2855ae -3.15%, #7292cf 100%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  min-width: 35.7rem;
+}
+
+.container-blanck {
+  margin-top: 2rem;
+  min-width: 31.5rem;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 4rem 4rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none; 
+}
+
+.hi {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #f2f2f2;
+  font-size: var(--size-title);
+  margin-top: 2rem;
+  margin-left: 2rem;
+  align-self: flex-start;
+}
+.sing {
+  font-family: ligth;
+  font-size: var(--h3);
+  color: #f2f2f2;
+  margin-left: 2rem;
+  margin-bottom: 5rem;
+  align-self: flex-start;
+}
+
+.mobile {
+  color: #a5a5a5a5;
+  margin-top: 4rem;
+  font-family: ligth;
+  font-size: var(--textodecorado);
+  align-self: flex-start;
+}
+
+.correo {
+  color: #323643;
+  font-size: var(--parrafo2);
+  margin-top: 1rem;
+}
+
+.password {
+  color: #a5a5a5a5;
+  margin-top: 4rem;
+  font-family: ligth;
+  font-size: var(--textodecorado);
+  align-self: flex-start;
+}
+
+.point {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.poin-div {
+  width: 9.04px;
+  height: 9.04px;
+  margin: 0.1rem;
+  background-color: #323643;
+  border-radius: 100%;
+}
+.eye {
+  width: 9.04px;
+  height: 9.04px;
+  margin: 0.1rem;
+  background-color: #323643;
+  border-radius: 100%;
+  margin-right: 18rem;
+}
+
+.container-botton {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.forgot {
+  font-family: ligth;
+  font-weight: 400;
+  margin-top: 2rem;
+  color: #000;
+  align-self: flex-end;
+
+}
+
+.line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #a5a5a5a5;
+  margin-top: 1rem;
+}
+.formes {
+  width: 100%;
+}
+
+input {
+  margin-top: 1rem;
+  width: 100%;
+  height: 2rem;
+  border-style: none;
+  outline: none;
+}
+
+.button {
+  width: 100%;
+  background: linear-gradient(313.78deg, #2855ae -3.15%, #7292cf 100%);
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: end;
+  border: none;
+}
+
+.button a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: var(--parrafo2);
+  color: #fff;
+  text-decoration: none;
+  margin-right: 30%;
+}
